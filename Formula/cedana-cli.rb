@@ -5,11 +5,11 @@
 class CedanaCli < Formula
   desc ""
   homepage "cedana.ai"
-  version "0.2.2"
+  version "0.2.4"
 
   on_macos do
-    url "https://github.com/cedana/cedana-cli/releases/download/v0.2.2/cedana-cli_0.2.2_darwin_amd64.tar.gz"
-    sha256 "35a50287da675ce68acdb26fabd26f8ffc17c3cbcdaf7f65f2eb2d3c340f6d50"
+    url "https://github.com/cedana/cedana-cli/releases/download/v0.2.4/cedana-cli_0.2.4_darwin_amd64.tar.gz"
+    sha256 "245e68b6e70782095a7a85748dd39bf5ecc84dbb9527104035ef50470d797199"
 
     def install
       bin.install "cedana-cli"
@@ -28,8 +28,8 @@ class CedanaCli < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/cedana/cedana-cli/releases/download/v0.2.2/cedana-cli_0.2.2_linux_amd64.tar.gz"
-      sha256 "0e620c358f374a88b9249a77bbb3e7ab43b26611683d5ed58b70172ef369a5d2"
+      url "https://github.com/cedana/cedana-cli/releases/download/v0.2.4/cedana-cli_0.2.4_linux_amd64.tar.gz"
+      sha256 "4f8fa82a2085e2011f980ca3d684c57e0dc8f332f6fa2beec4305552bdf465ac"
 
       def install
         bin.install "cedana-cli"
